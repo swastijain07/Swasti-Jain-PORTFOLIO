@@ -134,12 +134,15 @@ h1, h2, h3, .logo {
 }
 .skill-card:hover {
   transform: translateY(-6px);
-  background: #FFEDAB;
+  background:#FFEDAB;
 }
 .projects {
-  background-color: #FFEDAB;
+  background-color: #4F6815;
   padding: 50px;
   text-align: center;
+}
+.projects-heading {
+  color: #F0E6DA;
 }
 .project-card {
   max-width: 500px;
@@ -167,8 +170,8 @@ h1, h2, h3, .logo {
   margin-right: 8px;
 }
 .contact {
-  background-color: #4F6815;
-  color: #F0E6DA;
+  background-color: #FFEDAB;
+  color: #75070C;
   padding: 60px 50px;
   text-align: center;
 }
