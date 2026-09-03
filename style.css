@@ -265,10 +265,6 @@ footer {
   cursor: pointer;
 }
 @media (max-width: 800px) {
-  .navbar {
-    flex-direction: column;
-    gap: 10px;
-  }
   .hero {
     flex-direction: column-reverse;
     text-align: center;
