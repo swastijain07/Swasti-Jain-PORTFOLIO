@@ -168,3 +168,16 @@ footer {
   text-align: center;
   padding: 20px;
 }
+.btn:active {
+  background-color: #4F6815;
+}
+@media (max-width: 800px) {
+  .navbar {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .hero {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+}
