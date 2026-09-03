@@ -139,3 +139,32 @@ h1, h2, h3, .logo {
   font-size: 12px;
   margin-right: 8px;
 }
+.contact {
+  background-color: #4F6815;
+  color: #F0E6DA;
+  padding: 60px 50px;
+  text-align: center;
+}
+form {
+  max-width: 350px;
+  margin: 20px auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+input, textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.btn-light {
+  background-color: #FFEDAB;
+  color: #75070C;
+}
+footer {
+  background-color: #75070C;
+  color: #F0E6DA;
+  text-align: center;
+  padding: 20px;
+}
