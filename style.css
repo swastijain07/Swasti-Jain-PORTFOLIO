@@ -201,6 +201,14 @@ footer {
 .btn:active {
   background-color: #4F6815;
 }
+#menu-toggle {
+  display: none;
+}
+.hamburger {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+}
 @media (max-width: 800px) {
   .navbar {
     flex-direction: column;
@@ -209,5 +217,17 @@ footer {
   .hero {
     flex-direction: column-reverse;
     text-align: center;
+  }
+  .hamburger {
+    display: block;
+  }
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+  #menu-toggle:checked ~ .nav-links {
+    display: flex;
   }
 }
