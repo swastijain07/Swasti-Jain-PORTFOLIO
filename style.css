@@ -27,3 +27,47 @@ h1, h2, h3, .logo {
   text-decoration: none;
   color: #75070C;
 }
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 50px;
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.small-text {
+  color: #4F6815;
+  margin-bottom: 5px;
+}
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+.role {
+  font-weight: bold;
+  color: #4F6815;
+  margin-bottom: 15px;
+}
+.hero p {
+  margin-bottom: 20px;
+}
+.btn {
+  display: inline-block;
+  background-color: #75070C;
+  color: #F0E6DA;
+  padding: 12px 24px;
+  border-radius: 30px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+.profile-img {
+  width: 260px;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 50%;
+  background-color: #75070C;
+  border: 8px solid #75070C;
+  display: block;
+}
